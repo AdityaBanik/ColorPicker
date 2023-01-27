@@ -1,0 +1,99 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #1F2937;
+    margin: 0;
+    padding: 0;
+}
+
+
+
+/* layout */
+
+main{
+    color:  #D5D4D8;
+    border: 1px solid #D5D4D8;
+    border-radius: 5px;
+    margin: auto;
+    margin-top: 5em;
+
+}
+
+.container{
+    max-width: 600px;
+    width: 95%;
+}
+/* input section */
+
+#user-input{
+    display: flex;
+    padding: 1em;
+    justify-content: space-between;
+}
+
+#scheme{
+    width: 100%;
+    margin: 0 .75em;
+}
+
+select,.btn{
+    background-color: #1F2937;
+    color: #D5D4D8;
+    border: 1px solid #D5D4D8;
+    border-radius: 4px;
+    padding: 0 .8em;
+}
+
+/* color images */
+#color-container{
+    display: flex;
+    height: 30em;
+    width: 100%;
+    
+}
+
+.colors{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    cursor: pointer;
+}
+
+
+
+
+
+.color-image{
+   width: 100%;
+   height: 100%;
+}
+
+.color-name{
+    text-align: center;
+    padding: .75em;
+}
+
+
+/* buttons */
+.btn{
+    background-color:  #3D4B60;
+    display: block;
+    white-space: nowrap;
+    border: none;
+}
+
+/* copied msg */
+#copied-txt{
+    background-color: #2AAD71;
+    padding: .25em 1em;
+    font-weight: 600;
+    width: fit-content;
+    margin: 1em auto;
+    border-radius: 5px;
+    border: 2px solid #61DBA3;
+    color: antiquewhite;
+    opacity: .7;
+    visibility: hidden;
+}

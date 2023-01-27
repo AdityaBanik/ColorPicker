@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Document</title>
+</head>
+<body>
+    <main class="container">
+        <section class="input">
+            <form id="user-input">
+            
+                <input name="input-color" type="color">
+                
+                <select name="scheme" id="scheme">
+                    <option> analogic </option>
+                    <option> monochrome </option>
+                    <option> monochrome-dark </option>
+                    <option> monochrome-light </option>
+                    <option> complement </option>
+                    <option> analogic-complement </option>
+                    <option> triad </option>
+                    <option> quad </option>  
+                </select>
+                <button class= "btn" type="submit">Get color scheme</button>
+            </form>
+        </section>
+        
+        <section id="color-container"></section>
+        
+       
+    </main>
+    <p id="copied-txt">Copied</p>
+    <script src="main.js"></script>
+</body>
+</html>
